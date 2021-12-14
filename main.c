@@ -65,7 +65,7 @@ int main(void) {
     sei(); // turn on interrupts
 
     USART_Transmit('N');   // Displaying Name and CCID
-    USART_Transmit('i');   // If I try to use a loop it kind of misbehaves, so that's why I used this basic way for requirement
+    USART_Transmit('i');   // Control flow leads to random output
     USART_Transmit('k');
     USART_Transmit('h');
     USART_Transmit('i');
